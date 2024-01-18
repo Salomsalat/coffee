@@ -1,0 +1,104 @@
+.section {
+    padding-top: 300px;
+    background-repeat: no-repeat;
+}
+.section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/Rectangle\ 681.png);
+    background-size: 550px 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position:  calc(50% + 400px) calc(50% + 90px);
+}
+.div{
+    padding-bottom: 50px;
+    padding-top: 120px;
+    padding-left: 100px;
+    background-color: #C38F5A;
+    background-image: url(/Rectangle\ \(1\).png);
+}
+.section-inner {
+}
+.text {
+    color: #fff;
+}
+.h2 {
+    width: 397px;
+    margin-bottom: 24px;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+}
+.p {
+    width: 639px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.hero {
+    background-color: #0A775F;
+    background-image: url(/Rectangle\ \(2\).png);
+    background-position:  20px 50px;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+.h24 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #FFF;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+}
+.hero-main-list {
+}
+.list {
+    display: flex;
+    margin-left: -120px;
+    list-style-type: none;
+}
+.item {
+    background-color: #fff;
+    padding: 80px 182px 20px 20px;
+    margin-left: 20px;
+}
+.item:nth-child(1){
+background-image: url(/Combined\ Shape.svg);
+background-repeat: no-repeat;
+    background-position:  280px 20px;
+}
+.item:nth-child(2){
+    background-image: url(/Combined\ Shape\ \(1\).svg);
+    background-repeat: no-repeat;
+        background-position:  280px 20px;
+    }
+    .item:nth-child(3){
+        background-image: url(/Combined\ Shape\ \(2\).svg);
+        background-repeat: no-repeat;
+            background-position:  280px 20px;
+        }
+.item-h3 {
+    color: #333;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-variant: all-small-caps;
+width: 231px;
+}
+.item-p {
+    color: #333;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+}
